@@ -1,0 +1,103 @@
+/* reset  */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* -- general -- */
+
+.cta-home {
+  width: 100vw;
+  height: fit-content;
+  /* max-height: 50vh; */
+}
+
+.cta-home-bcg {
+  background-image: url("../img/hero-medium-console.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10% 7%;
+}
+
+.cta-home-content {
+  width: 50%;
+  /* height: 100%; */
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.button-box {
+  margin-top: 21px;
+  width: fit-content;
+  border:solid 2px;
+  border-radius: 3px;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* typography */
+h6 {
+  line-height: 1.5;
+  font-size: 18px;
+  color: #f3f3f3;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+/* utilities */
+.white {
+  color: #f3f3f3;
+}
+
+/* footer */
