@@ -4,7 +4,17 @@
 
 Usa HTTPS(https:) per immagini ed altri file multimediali.
 
-### Minuscole
+## Struttura sito
+
+Root
+- Pagine (index.html, about.html, contatti.html, ecc)
+- css (cartella contenete tutti i fogli stile)
+- img (cartella contenete tutte le immagini)
+- js (cartella contenente i file javascript)
+
+## HTML
+
+#### Minuscole
 
 Tutto il codice deve essere in minuscolo: questo vale per i nomi degli elementi HTML, gli attributi, i valori degli attributi, i selettori CSS, le proprietà ed i valori.
 Esempio:
@@ -53,11 +63,15 @@ Denominazione classi in inglese.
 
 ## GitHub e Git
 
+### Branch
+
+Quando crei un branch, é opportuno assegnare un nome che ne descriva il contenuto o la pagina di riferimento a cui si sta lavorando (es.contatti)
+  
 ### Commit
 
 Eseguendo il comando per effettuare un commit, é opportuno assegnare ad ogni commit un nome che descriva ciò che stiamo facendo.
 
-#### Pull Request
+### Pull Request
 
 Quando hai terminato con i cambiamenti al tuo progetto, effettua una Pull Request.
 
