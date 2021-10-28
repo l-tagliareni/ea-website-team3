@@ -65,7 +65,7 @@ Denominazione classi in inglese.
 
 ### Branch
 
-Quando crei un branch, é opportuno assegnare un nome che ne descriva il contenuto o la pagina di riferimento a cui si sta lavorando (es.contatti)
+Quando crei un branch, é opportuno assegnare un nome che ne descriva il contenuto o la pagina di riferimento a cui si sta lavorando (es.contatti).
   
 ### Commit
 
@@ -73,6 +73,7 @@ Eseguendo il comando per effettuare un commit, é opportuno assegnare ad ogni co
 
 ### Pull Request
 
-Quando hai terminato con i cambiamenti al tuo progetto, effettua una Pull Request.
+Quando hai terminato con i cambiamenti al tuo progetto, effettua una Pull Request. <br />
+<strong>N.B. Il merge va fatto su develop e non su main!</strong>
 
 ##### Il team 3 ti ringrazia :tada: :tada: :tada:
