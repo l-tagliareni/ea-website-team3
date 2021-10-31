@@ -5,9 +5,11 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
 body {
     background-color: rgb(241, 241, 241)
 }
+
 
 main {
     width: 80vw;
@@ -18,10 +20,8 @@ main {
 h3 {
     text-align: center;
     font-size: 32px;
-    margin-bottom: 60px;
-
+    margin-bottom: 40px;
 }
-
 
 
 .tab {
@@ -30,6 +30,7 @@ h3 {
 
 
 }
+
 
 .tab button {
     background-color: inherit;
@@ -43,9 +44,11 @@ h3 {
     border-right: 1px solid gray;
 }
 
+
 .tab button:last-child {
     border-right: none;
 }
+
 
 .tab button:hover {
     background-color: #ddd;
@@ -53,12 +56,12 @@ h3 {
 
 }
 
+
 .row {
     display: flex;
     justify-content: space-between;
     width: 100%;
     gap: 16px;
-
 }
 
 
@@ -69,31 +72,37 @@ h3 {
     margin-top: 56px;
     text-align: center;
     cursor: pointer;
-
 }
+
+
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
     transform: translateY(-8px);
 }
 
+
 .card img {
     width: 100%;
     height: auto;
 }
 
+
 .container {
     padding: 2px 16px;
 }
+
 
 .container p {
     margin: 8px 0;
     line-height: 27px;
 }
 
+
 .container p span.label {
-    color: #FF4746;
+    color: #ff4746;
 }
+
 
 .button-container {
     width: 100%;
@@ -101,6 +110,7 @@ h3 {
     justify-content: center;
     margin-top: 20px;
 }
+
 
 .button-container a {
     border: 2px solid black;
@@ -111,6 +121,17 @@ h3 {
     transition: 0.4s;
 }
 
+
 .button-container a:hover {
     padding: 14px 20px;
+}
+
+
+@media screen and (max-width:768px) {
+    .card img {
+        display: none;
+    }
+
+
+
 }
