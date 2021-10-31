@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: rgb(241, 241, 241)
+}
+
+main {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+
+h3 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 60px;
+
+}
+
+
+
+.tab {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+
+
+}
+
+.tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    border-bottom: solid transparent;
+    border-right: 1px solid gray;
+}
+
+.tab button:last-child {
+    border-right: none;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+    border-bottom: solid rgb(234, 65, 65);
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 16px;
+
+}
+
+
+.card {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.4s;
+    margin-top: 56px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
+    transform: translateY(-8px);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.container p {
+    margin: 8px 0;
+    line-height: 27px;
+}
+
+.container p span.label {
+    color: #FF4746;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button-container a {
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 10px 16px;
+    border-radius: 2px;
+    transition: 0.4s;
+}
+
+.button-container a:hover {
+    padding: 14px 20px;
+}
