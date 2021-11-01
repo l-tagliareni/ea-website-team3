@@ -88,18 +88,18 @@ h3 {
 }
 
 
-.container {
+.content {
     padding: 2px 16px;
 }
 
 
-.container p {
+.content p {
     margin: 8px 0;
     line-height: 27px;
 }
 
 
-.container p span.label {
+.content p span.label {
     color: #ff4746;
 }
 
@@ -142,17 +142,22 @@ h3 {
     .card {
         width: 100%;
         display: flex;
-        flex-wrap: wrap;
+
 
     }
 
-    .container {
+    .content {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
+
+
 
 
 
     }
+
+    .content h4 p {}
 
 
 
