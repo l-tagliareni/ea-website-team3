@@ -144,20 +144,16 @@ h3 {
         display: flex;
 
 
+
     }
 
     .content {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-
-
-
-
-
     }
 
-    .content h4 p {}
+
 
 
 
