@@ -77,9 +77,24 @@ a {
   transform: scale(1.05, 1.05);
 }
 
-/*>>>testo non dovrebbe fare scala*/
-.button-text:hover {
-  transform: unset;
+/**/
+.container-button {
+  position: relative;
+  margin-top: 21px;
+  box-sizing: border-box; 
+}
+
+.border {
+  position: absolute;
+  padding: 12px 24px;
+  border:solid 2px;
+  border-radius: 3px;
+  transition: padding .1s;
+}
+
+.border:hover {
+  padding: 15px 27px;
+  transform: translate(-3px, -3px);
 }
 
 /* -- TYPOGRAPHY -- */
