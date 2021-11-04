@@ -365,6 +365,11 @@ body {
 }
 
 @media all and (min-width: 1456px) {
+  .local-footer ul, .social {
+    margin-top: 34px;
+    padding-bottom: 110px;
+  }
+  
   .row2 ul {
     max-width: 55%;
   }
