@@ -14,139 +14,84 @@
     flex-wrap: wrap;
   }
 }
-  #images {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .image-container {
-    width: 380px;
-    height: 380px;
-    margin: 20px;
-    position: relative;
-  }
-  .image-container img {
-    width: 100%;
-    height: 100%;
-  }
-  .fade::after {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0.1;
-    cursor: pointer;
-    background: linear-gradient(to top right, #c300ff 0%, #000000 50%, #ff3300 100%);
-  }
-  .fade:hover::after {
-    opacity: 0.8;
-    content: url(/foto/nfs.png);
-  }
-  .fade1::after {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    content: url(/foto/apex.png);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0.1;
-    cursor: pointer;
-    background: linear-gradient(to top right, #c300ff 0%, #3c00ff 50%, #ff3300 100%);
-  }
-  .fade1:hover::after {
-    opacity: 0.8;
-  }
-  .fade2::after {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    content: url(/foto/sims4.png);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0.1;
-    cursor: pointer;
-    background: linear-gradient(to top right, #c300ff 0%, #00ff22 50%, #ff3300 100%);
-  }
-  .fade2:hover::after {
-    opacity: 0.8;
-  }
-  .fade3::after {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    content: url(/foto/f1.png);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0.1;
-    cursor: pointer;
-    background: linear-gradient(to top right, #00a2ff 0%, #00ff80 50%, #ff3300 100%);
-  }
-  .fade3:hover::after {
-    opacity: 0.9;
-  }
-  .fade4::after {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    content: url(/foto/rocket.png);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0.1;
-    cursor: pointer;
-    background: linear-gradient(to top right, #c300ff 0%, #312a44 50%, #ff3300 100%);
-  }
-  .fade4:hover::after {
-    opacity: 0.8;
-  }
-  .fade5::after {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    content: url(/foto/command2.png);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0.1;
-    cursor: pointer;
-    background: linear-gradient(to top right, #ff0000 0%, #a200ff 50%, #ff3300 100%);
-  }
-  .fade5:hover::after {
-    opacity: 0.8;
-  }
-  #more-games {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
-    border: 1px solid black;
-    width: 190px;
-    height: 50px;
-    font-size: 20px;
-    cursor: pointer;
-  }
-  #more-games:hover {
-    padding: 32px 32px 32px 32px;
-    color: red;
-  }
-  .image-container button {
-    padding: 30px;
-    margin: 110px;
-  }
+
+#images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container {
+  width: 380px;
+  height: 380px;
+  margin: 20px;
+  position: relative;
+}
+
+.image-container>img {
+  width: 100%;
+  height: 100%;
+}
+
+.img2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+#ciao {
+  width: 99%;
+}
+
+.img2:hover>img {
+  opacity: 0.9;
+  transform: translatey( -30px);
+  transition-delay: 100s;
+  transform-style: preserve-3d;
+}
+
+.gradient:hover {
+  background: linear-gradient(to top right, #c300ff 0%, #000000 50%, #ff3300 100%);
+  opacity: 0, 9;
+}
+
+.img2:hover::after {
+  margin-bottom: 99%;
+  content: "Sito Web";
+  z-index: 99;
+  color: white;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+#more-games {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 1px solid black;
+  width: 190px;
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#more-games:hover {
+  padding: 32px 32px 32px 32px;
+  color: red;
+}
+
+.image-container button {
+  padding: 30px;
+  margin: 110px;
+}
