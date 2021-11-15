@@ -7,13 +7,14 @@
 
 
 body {
-    background-color: rgb(241, 241, 241)
+    background-color: #F3F3F3;
 }
 
 
 main {
     width: 80vw;
     margin: 0 auto;
+    background-color: #F3F3F3;
 }
 
 
@@ -27,8 +28,12 @@ h3 {
 .tab {
     overflow: hidden;
     border-bottom: 1px solid #ccc;
+    height: 48px;
+    width: auto;
+}
 
-
+.tab .tablinks {
+    font-size: 12px;
 }
 
 
@@ -56,6 +61,10 @@ h3 {
 
 }
 
+hr {
+    border: 0px;
+}
+
 
 .row {
     display: flex;
@@ -72,6 +81,7 @@ h3 {
     margin-top: 56px;
     text-align: center;
     cursor: pointer;
+    background-color: #FFFFFF;
 }
 
 
@@ -90,6 +100,7 @@ h3 {
 
 .content {
     padding: 2px 16px;
+
 }
 
 
@@ -132,7 +143,10 @@ h3 {
     .tab {
         overflow: scroll;
         display: flex;
+        margin-bottom: 30px;
     }
+
+    .tablinks {}
 
 
     .card img {
@@ -143,20 +157,34 @@ h3 {
         width: 100%;
         display: flex;
         flex-direction: column;
-
-
-
+        margin-top: 10px;
     }
+
 
     .content {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
     }
+
+    .content p {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content h4+p {
+        display: none;
+
+    }
+
 
     .row {
         flex-direction: column;
+
     }
+
+
 
 
 
