@@ -146,9 +146,6 @@ hr {
         margin-bottom: 30px;
     }
 
-    .tablinks {}
-
-
     .card img {
         display: none;
     }
@@ -159,7 +156,6 @@ hr {
         flex-direction: column;
         margin-top: 10px;
     }
-
 
     .content {
         display: flex;
